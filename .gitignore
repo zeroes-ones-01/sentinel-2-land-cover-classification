@@ -1,0 +1,24 @@
+# Original source datasets — obtain separately using Data/README.md
+/Data/Raw data/
+
+# Original tutorial figures and analysis runs — retain locally, do not publish
+/Figures/
+/Outputs/
+
+# Raster and model files
+*.tif
+*.tiff
+*.rds
+
+# R temporary and session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local figure-review document
+/Publication/figure_review.pdf
+
+# Operating system files
+.DS_Store
+Thumbs.db
